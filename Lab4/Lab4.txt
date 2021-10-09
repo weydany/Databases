@@ -1,0 +1,55 @@
+1.
+a)
+Initial phase - characterize fully the data needs of the prospective database users.
+Second phase - choosing a data model
+Final Phase - Moving from an abstract data model to the implementation of the database
+
+b)
+Models an enterprise as a collection of entities and relationships
+▪️ Entity: a “thing” or “object” in the enterprise that is distinguishable from other objects
+• Described by a set of attributes
+▪️ Relationship: an association among several entities
+• Represented diagrammatically by an entity-relationship diagram
+
+2.
+a)
+STUDENT
+Simple: age, year(second_year_student)
+Composite: adress(street, city, county), name(fisrt_name, second_name)
+Derived: gender
+Multivalued: mobile_number
+b)
+UNIVERSITY
+name
+adress
+numer_of_student
+email
+
+COURSE
+course_id
+duration
+credits
+
+DORMITORY
+student_id
+room_number
+price
+adress
+
+TEACHER
+teacher_id 
+class
+DOB
+mobile_number
+experience 
+
+OR
+name
+faculty
+mobile_number
+number_of_room
+
+3)
+
+
+
